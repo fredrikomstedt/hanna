@@ -191,6 +191,25 @@
             }
         },
         {
+            "Key": "4469c53e-1bb5-4fcf-a7d9-1b96dd959b58",
+            "Value": {
+                "id": "b6428e3a-539c-4f17-b322-ceb3021e1329",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_torch\/spr_torch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58817c7e-9bc6-4f1e-a513-bc8f54b66255",
             "Value": {
                 "id": "7c8ed73a-e12b-49f1-a8e2-b7401a3d838e",
