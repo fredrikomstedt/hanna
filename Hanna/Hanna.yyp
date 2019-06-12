@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "0bda57ba-5f05-489e-9d62-0d0729191515",
+            "Value": {
+                "id": "4f635044-0c4c-4a09-8a90-e762f51e6ff4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_global_controller\/obj_global_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0cc84fd6-34fd-44bd-a9d8-9601d13b2336",
             "Value": {
                 "id": "d95b9260-0d7b-4b3b-a0b5-2cae15ced0b7",
@@ -153,6 +172,25 @@
             }
         },
         {
+            "Key": "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
+            "Value": {
+                "id": "383ef361-a02b-43ad-9d62-b44e3c681b97",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/hanna_move_state\/hanna_move_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "33ee5cd8-4a8d-4825-bd75-e35a73b9790d",
             "Value": {
                 "id": "1c269462-e9d3-4052-b143-7c596cfc0869",
@@ -191,6 +229,25 @@
             }
         },
         {
+            "Key": "37dc9f3c-d64b-4fa8-997f-d2938b2b83c1",
+            "Value": {
+                "id": "56fd3210-747f-40e9-b913-f17815d54579",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_hanna_running\/spr_hanna_running.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4469c53e-1bb5-4fcf-a7d9-1b96dd959b58",
             "Value": {
                 "id": "b6428e3a-539c-4f17-b322-ceb3021e1329",
@@ -207,6 +264,25 @@
                 ],
                 "resourcePath": "sprites\/spr_torch\/spr_torch.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "539f07bc-3576-4fed-ac36-64297288b98d",
+            "Value": {
+                "id": "0b6b97b7-e93b-44ea-8cdc-f286e100df05",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/move\/move.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -571,6 +647,25 @@
             }
         },
         {
+            "Key": "e260491f-be2a-42d1-addb-1be371e2e994",
+            "Value": {
+                "id": "3868d008-296f-4fc6-89eb-b78af568c31c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_hanna\/spr_hanna.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2fe554c-f9e5-4c73-a50f-04d505cd32a4",
             "Value": {
                 "id": "0e32f0fa-de83-4d86-89ab-8dc9dc8860ed",
@@ -609,6 +704,25 @@
             }
         },
         {
+            "Key": "e9a48ac0-4c2c-4f83-b174-7ef3b432160f",
+            "Value": {
+                "id": "bbcbe78f-62c2-4fc4-809d-ed9c006686f8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_hanna\/obj_hanna.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "79a0200b-0d18-4991-82a3-dc20d34da7d3",
@@ -629,7 +743,8 @@
         }
     ],
     "script_order": [
-        
+        "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
+        "539f07bc-3576-4fed-ac36-64297288b98d"
     ],
     "tutorial": ""
 }
