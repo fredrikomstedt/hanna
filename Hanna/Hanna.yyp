@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "0720fe32-234b-42de-8446-cf00bb0ed789",
+            "Value": {
+                "id": "2e227571-ba03-488d-9c59-53265f6bbe2e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_healthbar\/spr_healthbar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0bda57ba-5f05-489e-9d62-0d0729191515",
             "Value": {
                 "id": "4f635044-0c4c-4a09-8a90-e762f51e6ff4",

@@ -8,4 +8,6 @@ velocity = [0, 0];
 max_velocity = [8, 24];
 acceleration = 2;
 
+hp = 100;
+
 state = hanna_move_state;
