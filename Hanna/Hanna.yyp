@@ -248,6 +248,25 @@
             }
         },
         {
+            "Key": "3777ff86-2241-4298-8c20-84cb02234e3b",
+            "Value": {
+                "id": "9ad75f14-720a-46d1-b8f9-2be9cb7df8dd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/spider_move_state\/spider_move_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "37dc9f3c-d64b-4fa8-997f-d2938b2b83c1",
             "Value": {
                 "id": "56fd3210-747f-40e9-b913-f17815d54579",
@@ -340,6 +359,25 @@
                 ],
                 "resourcePath": "sprites\/spr_hole\/spr_hole.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6df094cd-9864-437c-b411-80e5624dd9dc",
+            "Value": {
+                "id": "abc911c8-1f6f-49e0-a98c-f3dc74e2e626",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_spider\/obj_spider.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -778,10 +816,30 @@
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "fa257163-1f5f-4d2f-8768-99e144ea8ebc",
+            "Value": {
+                "id": "f5d0cd2b-8014-49c4-aefe-298f7f7c9274",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_spider\/spr_spider.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
         "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
+        "3777ff86-2241-4298-8c20-84cb02234e3b",
         "539f07bc-3576-4fed-ac36-64297288b98d"
     ],
     "tutorial": ""
