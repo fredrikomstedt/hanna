@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "00e62fd3-e67c-4cf4-a7c8-a366b68f6d20",
+            "Value": {
+                "id": "880762b1-f24a-4e5a-a758-c44b425d6d2a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_hanna_face\/spr_hanna_face.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0bda57ba-5f05-489e-9d62-0d0729191515",
             "Value": {
                 "id": "4f635044-0c4c-4a09-8a90-e762f51e6ff4",
