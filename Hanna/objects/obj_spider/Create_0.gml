@@ -6,4 +6,4 @@ max_velocity = [4, 12];
 dir = choose(-1, 1);
 acceleration = 2;
 
-state = spider_move_state;
+state = spider_spawn_state;

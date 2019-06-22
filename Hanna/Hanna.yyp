@@ -267,25 +267,6 @@
             }
         },
         {
-            "Key": "36d80f68-7d1f-4454-b236-47c1a9fbbf4f",
-            "Value": {
-                "id": "3fb7628a-80aa-4590-867e-f7ec4bc2c1b0",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/hanna_hurt_state\/hanna_hurt_state.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3777ff86-2241-4298-8c20-84cb02234e3b",
             "Value": {
                 "id": "9ad75f14-720a-46d1-b8f9-2be9cb7df8dd",
@@ -324,6 +305,25 @@
             }
         },
         {
+            "Key": "3c26aea1-9c88-40a0-a13c-07502fff8509",
+            "Value": {
+                "id": "e6e1b3c2-cbac-48d0-9729-38e74dc2fa39",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/spider_spawn_state\/spider_spawn_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4469c53e-1bb5-4fcf-a7d9-1b96dd959b58",
             "Value": {
                 "id": "b6428e3a-539c-4f17-b322-ceb3021e1329",
@@ -340,6 +340,25 @@
                 ],
                 "resourcePath": "sprites\/spr_torch\/spr_torch.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46e7be50-dcad-4ad2-b68b-94d788906ad9",
+            "Value": {
+                "id": "e3c21fb1-aaed-4b75-9106-6de57ed810ee",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_spider_splat\/obj_spider_splat.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -454,6 +473,25 @@
                 ],
                 "resourcePath": "rooms\/rm_arena\/rm_arena.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7ead52fa-82e6-4761-98d6-559e8ecb5c95",
+            "Value": {
+                "id": "8fcf01f8-c708-44dd-abae-b4b4bbf830ce",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_spider_splat_drop\/obj_spider_splat_drop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -647,6 +685,25 @@
             }
         },
         {
+            "Key": "bb5e2c79-1070-4299-9403-7103bc1c5fb0",
+            "Value": {
+                "id": "24d8252a-9561-476f-ab9a-4901c2b4e47e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_spawner\/obj_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c467dde9-027d-4115-9c71-896b59083291",
             "Value": {
                 "id": "2fecd74d-d2f2-4004-90ab-9f653b919956",
@@ -780,6 +837,25 @@
             }
         },
         {
+            "Key": "e2985e02-3d47-4c22-b1ce-ec6e9846c328",
+            "Value": {
+                "id": "9c7d8a9c-60b5-4308-9b1d-f1884775e96d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_spider_splat\/spr_spider_splat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2fe554c-f9e5-4c73-a50f-04d505cd32a4",
             "Value": {
                 "id": "0e32f0fa-de83-4d86-89ab-8dc9dc8860ed",
@@ -815,6 +891,25 @@
                 ],
                 "resourcePath": "options\/android\/options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e786e4f2-6ca8-441e-b268-9b7350f8bb57",
+            "Value": {
+                "id": "bbba9d8c-6056-4a0e-a99a-5002f6a9e94d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_spider_splat_drop\/spr_spider_splat_drop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -877,8 +972,8 @@
     ],
     "script_order": [
         "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
-        "36d80f68-7d1f-4454-b236-47c1a9fbbf4f",
         "3777ff86-2241-4298-8c20-84cb02234e3b",
+        "3c26aea1-9c88-40a0-a13c-07502fff8509",
         "539f07bc-3576-4fed-ac36-64297288b98d"
     ],
     "tutorial": ""

@@ -10,19 +10,48 @@ var x_input = (right - left) * acceleration;
 
 var on_ground = !place_empty(x, y + 1, obj_solid);
 
-//Damage
+//Take damage
 if(can_get_hurt) {
-	if(on_ground && !place_empty(x, y, obj_spider)) {
+	if(!place_empty(x, y, obj_spider)) {
 		hp -= 10;
 		can_get_hurt = false;
-		velocity[0] = -sign(x_input) * max_velocity[0];
+		velocity[0] = irandom_range(-3*max_velocity[0], 3*max_velocity[0]);
 		velocity[1] = -jump_speed;
-		state = hanna_hurt_state;
 		sprite_index = spr_hanna;
 		alarm[1] = room_speed/8;
 		alarm[0] = 2*room_speed;
 		exit;
 	}
+}
+
+if(hurt_flash) {
+	image_alpha = 0;	
+} else {
+	image_alpha = 1;	
+}
+
+//Damage enemies
+if(!on_ground) {
+	var spider_list = ds_list_create();
+	var spiders = instance_place_list(x, y + velocity[1], obj_spider, spider_list, false);
+	if(spiders > 0) {
+		for(var i = 0; i < ds_list_size(spider_list); i++) {
+			instance_destroy(spider_list[| i]);	
+		}
+	}
+	spiders = instance_place_list(x - sprite_width/4, y + velocity[1], obj_spider, spider_list, false);
+	if(spiders > 0) {
+		for(var i = 0; i < ds_list_size(spider_list); i++) {
+			instance_destroy(spider_list[| i]);	
+		}
+	}
+	spiders = instance_place_list(x + sprite_width/4, y + velocity[1], obj_spider, spider_list, false);
+	if(spiders > 0) {
+		for(var i = 0; i < ds_list_size(spider_list); i++) {
+			instance_destroy(spider_list[| i]);	
+		}
+	}
+	ds_list_destroy(spider_list);	
 }
 
 //Horizontal movement
