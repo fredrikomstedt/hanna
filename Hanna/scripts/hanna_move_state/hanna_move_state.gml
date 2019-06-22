@@ -11,20 +11,30 @@ var x_input = (right - left) * acceleration;
 //Horizontal movement
 velocity[0] = clamp(velocity[0]+x_input, -max_velocity[0], max_velocity[0]);
 
+
+var on_ground = !place_empty(x, y + 1, obj_solid);
+
 //Friction
 if(x_input == 0) {
     velocity[0] = lerp(velocity[0], 0, .2);
-	sprite_index = spr_hanna;
+	if(on_ground) {
+		sprite_index = spr_hanna;
+	} else {
+		sprite_index = spr_hanna_jump;
+	}
 } else {
 	image_xscale = sign(x_input);
-	sprite_index = spr_hanna_running;
+	if(on_ground) {
+		sprite_index = spr_hanna_running;
+	} else {
+		sprite_index = spr_hanna_jump;
+	}
 }
 
 //Gravity
 velocity[1] += grav;
 
 //Jumping
-var on_ground = place_empty(x, bbox_bottom + 1, obj_solid);
 if(on_ground) {
     jumps = jump_amount;
     if(jump) {

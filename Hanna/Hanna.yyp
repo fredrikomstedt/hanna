@@ -395,7 +395,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_bars_stop1\/spr_bars_stop1.yy",
+                "resourcePath": "sprites\/spr_bars_stop_flipped\/spr_bars_stop_flipped.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -625,6 +625,25 @@
                 ],
                 "resourcePath": "views\/ce7abb9c-e924-41a8-9ca0-7c133c986e15.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cf10ceef-411f-454c-a5dd-8fcb9886566b",
+            "Value": {
+                "id": "4b7c92d7-6a9e-4742-ac0a-cd96a060489f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_hanna_jump\/spr_hanna_jump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
