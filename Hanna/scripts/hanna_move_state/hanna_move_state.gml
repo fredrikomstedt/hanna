@@ -6,6 +6,7 @@ var right = d_key;
 var left = a_key;
 var jump = space_key;
 var jump_let_go = space_key_let_go;
+var heal = heal_key;
 var x_input = (right - left) * acceleration;
 
 var on_ground = !place_empty(x, y + 1, obj_solid);
@@ -52,6 +53,18 @@ if(!on_ground) {
 		}
 	}
 	ds_list_destroy(spider_list);	
+}
+
+//Abilities
+//Healing
+if(heal) {
+	if(mana >= 20 && hp < max_hp) {
+		mana = max(0, mana - 20);	
+		hp = min(hp + 20, max_hp);
+		repeat(irandom_range(20, 30)) {
+			instance_create_layer(x + random_range(-abs(sprite_width)/2, abs(sprite_width)/2), y + random_range(-sprite_height/4, sprite_height/2), "Instances", obj_heal_blob);	
+		}
+	}
 }
 
 //Horizontal movement

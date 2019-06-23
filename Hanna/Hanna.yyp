@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "00703345-12e1-4ff1-8b8d-ef98cb142e01",
+            "Value": {
+                "id": "4f28bdb4-f94c-461a-9384-e6e69b2d2731",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_heal_ability\/spr_heal_ability.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00e62fd3-e67c-4cf4-a7c8-a366b68f6d20",
             "Value": {
                 "id": "880762b1-f24a-4e5a-a758-c44b425d6d2a",
@@ -647,6 +666,25 @@
             }
         },
         {
+            "Key": "a3db5bfc-8ae4-48d3-ad10-31f1d65efcc5",
+            "Value": {
+                "id": "d7683329-cdcc-4f73-9a99-407744a4b908",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_heal_blob\/spr_heal_blob.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "73f5f3c4-0619-4ad2-9160-bf484248654d",
@@ -663,6 +701,25 @@
                 ],
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa3d47c6-9e2d-4def-bf0c-184ac275422c",
+            "Value": {
+                "id": "5b9a0e77-7770-471e-9400-b758186d42c5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_heal_blob\/obj_heal_blob.yy",
+                "resourceType": "GMObject"
             }
         },
         {

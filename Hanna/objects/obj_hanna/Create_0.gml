@@ -15,6 +15,6 @@ hurt_flash = false;
 
 mana = 0;
 max_mana = 100;
-show_mana = false;
+show_mana = mana > 0;
 
 state = hanna_move_state;
