@@ -9,7 +9,12 @@ max_velocity = [8, 24];
 acceleration = 2;
 
 hp = 100;
+max_hp = 100;
 can_get_hurt = true;
 hurt_flash = false;
+
+mana = 0;
+max_mana = 100;
+show_mana = false;
 
 state = hanna_move_state;
