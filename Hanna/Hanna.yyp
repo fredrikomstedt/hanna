@@ -267,6 +267,25 @@
             }
         },
         {
+            "Key": "337201ee-a561-4fdd-829e-c628cb38e493",
+            "Value": {
+                "id": "c026b40f-8a12-4f21-9f0c-1dabf8948945",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_fire\/obj_fire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33ee5cd8-4a8d-4825-bd75-e35a73b9790d",
             "Value": {
                 "id": "1c269462-e9d3-4052-b143-7c596cfc0869",
@@ -362,6 +381,25 @@
             }
         },
         {
+            "Key": "4115425a-fe12-4667-9ec7-72273ac5b9f4",
+            "Value": {
+                "id": "3fe2be04-ecd6-4c3f-b39e-24c4993701fa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_fire_ability\/spr_fire_ability.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4469c53e-1bb5-4fcf-a7d9-1b96dd959b58",
             "Value": {
                 "id": "b6428e3a-539c-4f17-b322-ceb3021e1329",
@@ -454,6 +492,25 @@
                 ],
                 "resourcePath": "sprites\/spr_hole\/spr_hole.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "68252665-ccd6-43ae-a1e3-c29454f0728f",
+            "Value": {
+                "id": "20505117-3b44-4381-a424-7b6cfe18ebee",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/hanna_fire_state\/hanna_fire_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -758,6 +815,25 @@
                 ],
                 "resourcePath": "objects\/obj_heal_blob\/obj_heal_blob.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "aee2a800-ada6-4045-acdd-83410227ee6a",
+            "Value": {
+                "id": "aa23acf4-392a-4051-8322-d050ea7cabeb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_fire\/spr_fire.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1070,7 +1146,8 @@
         "3777ff86-2241-4298-8c20-84cb02234e3b",
         "3c26aea1-9c88-40a0-a13c-07502fff8509",
         "539f07bc-3576-4fed-ac36-64297288b98d",
-        "26f7afd7-b1eb-4b75-b0b1-e051d5d03082"
+        "26f7afd7-b1eb-4b75-b0b1-e051d5d03082",
+        "68252665-ccd6-43ae-a1e3-c29454f0728f"
     ],
     "tutorial": ""
 }

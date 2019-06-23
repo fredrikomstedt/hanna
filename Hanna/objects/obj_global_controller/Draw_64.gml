@@ -11,4 +11,7 @@ if(hanna.show_mana) {
 	
 	//Heal ability
 	draw_sprite(spr_heal_ability, 0, 175, 212);
+	
+	//Fire ability
+	draw_sprite(spr_fire_ability, 0, 267, 212);
 }

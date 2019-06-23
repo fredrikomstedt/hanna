@@ -10,3 +10,4 @@ a_key = keyboard_check(ord("A"));
 space_key = keyboard_check_pressed(vk_space);
 space_key_let_go = keyboard_check_released(vk_space);
 heal_key = keyboard_check_pressed(ord("2"));
+fire_key = keyboard_check_pressed(ord("3"));

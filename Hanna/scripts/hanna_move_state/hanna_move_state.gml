@@ -7,6 +7,7 @@ var left = a_key;
 var jump = space_key;
 var jump_let_go = space_key_let_go;
 var heal = heal_key;
+var fire = fire_key;
 var x_input = (right - left) * acceleration;
 
 var on_ground = !place_empty(x, y + 1, obj_solid);
@@ -61,6 +62,16 @@ if(heal) {
 	if(mana >= 20 && hp < max_hp) {
 		sprite_index = spr_hanna_ability;
 		state = hanna_heal_state;
+		script_execute(state);
+		exit;
+	}
+}
+
+//Fire
+if(fire) {
+	if(mana >= 40) {
+		sprite_index = spr_hanna_ability;
+		state = hanna_fire_state;
 		script_execute(state);
 		exit;
 	}
