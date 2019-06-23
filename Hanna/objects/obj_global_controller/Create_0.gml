@@ -13,6 +13,8 @@ globalvar space_key;
 space_key = 0;
 globalvar space_key_let_go;
 space_key_let_go = 0;
+globalvar spear_key;
+spear_key = 0;
 globalvar heal_key;
 heal_key = 0;
 globalvar fire_key;

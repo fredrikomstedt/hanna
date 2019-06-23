@@ -18,3 +18,4 @@ if(spiders > 0) {
 		instance_destroy(spider_list[| i]);	
 	}
 }
+ds_list_destroy(spider_list);

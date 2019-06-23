@@ -17,4 +17,8 @@ mana = 100;
 max_mana = 100;
 show_mana = mana > 0;
 
+spears = 3;
+max_spears = 10;
+show_spears = spears > 0;
+
 state = hanna_move_state;

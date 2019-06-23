@@ -6,6 +6,7 @@ var right = d_key;
 var left = a_key;
 var jump = space_key;
 var jump_let_go = space_key_let_go;
+var spear = spear_key;
 var heal = heal_key;
 var fire = fire_key;
 var x_input = (right - left) * acceleration;
@@ -57,6 +58,16 @@ if(!on_ground) {
 }
 
 //Abilities
+//Spear
+if(spear) {
+	if(spears > 0) {
+		sprite_index = spr_hanna_ability;
+		state = hanna_spear_state;
+		script_execute(state);
+		exit;
+	}
+}
+
 //Healing
 if(heal) {
 	if(mana >= 20 && hp < max_hp) {
