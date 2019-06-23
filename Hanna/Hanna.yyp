@@ -609,6 +609,25 @@
             }
         },
         {
+            "Key": "94144f3e-27ed-4716-97f4-34e1569e6682",
+            "Value": {
+                "id": "1a292d00-275a-4f9b-8f0c-a8b9bc29ff3e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_hanna_ability\/spr_hanna_ability.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e5e1f8b-0b80-47ff-81f2-977d09ce2231",
             "Value": {
                 "id": "f14dbbd7-a10e-40cf-9dad-8a08cb7331ee",
