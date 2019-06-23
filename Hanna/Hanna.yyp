@@ -210,6 +210,25 @@
             }
         },
         {
+            "Key": "26f7afd7-b1eb-4b75-b0b1-e051d5d03082",
+            "Value": {
+                "id": "735369c6-b6ed-4dda-bd05-26e753827ec2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/hanna_heal_state\/hanna_heal_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27edcd6f-354c-47e3-b731-1f067a2b69b4",
             "Value": {
                 "id": "60436dc3-a6f1-4620-9621-87ac23220a92",
@@ -1050,7 +1069,8 @@
         "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
         "3777ff86-2241-4298-8c20-84cb02234e3b",
         "3c26aea1-9c88-40a0-a13c-07502fff8509",
-        "539f07bc-3576-4fed-ac36-64297288b98d"
+        "539f07bc-3576-4fed-ac36-64297288b98d",
+        "26f7afd7-b1eb-4b75-b0b1-e051d5d03082"
     ],
     "tutorial": ""
 }

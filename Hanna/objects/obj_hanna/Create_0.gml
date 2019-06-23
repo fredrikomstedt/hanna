@@ -13,7 +13,7 @@ max_hp = 100;
 can_get_hurt = true;
 hurt_flash = false;
 
-mana = 0;
+mana = 100;
 max_mana = 100;
 show_mana = mana > 0;
 
