@@ -35,7 +35,9 @@ if(can_get_hurt) {
 		alarm[0] = 2*room_speed;
 		exit;
 	}
-	if(!place_empty(x, y, obj_deminion_spear)) {
+	var enemy_spear = instance_place(x, y, obj_deminion_spear);
+	if(enemy_spear != noone) {
+		instance_destroy(enemy_spear);
 		hp -= 10;
 		can_get_hurt = false;
 		velocity[0] = irandom_range(-3*max_velocity[0], 3*max_velocity[0]);
