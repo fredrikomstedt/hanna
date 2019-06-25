@@ -53,3 +53,25 @@ if(deminions > 0) {
 	}
 }
 ds_list_destroy(deminion_list);
+
+//Kill manamonsters
+var manamonster_list = ds_list_create();
+var manamonsters = instance_place_list(x, y, obj_manamonster, manamonster_list, false);
+if(manamonsters > 0) {
+	for(var i = 0; i < ds_list_size(manamonster_list); i++) {
+		instance_destroy(manamonster_list[| i]);	
+	}
+}
+manamonsters = instance_place_list(x, y + sprite_height, obj_manamonster, manamonster_list, false);
+if(manamonsters > 0) {
+	for(var i = 0; i < ds_list_size(manamonster_list); i++) {
+		instance_destroy(manamonster_list[| i]);	
+	}
+}
+manamonsters = instance_place_list(x, y - sprite_height, obj_manamonster, manamonster_list, false);
+if(manamonsters > 0) {
+	for(var i = 0; i < ds_list_size(manamonster_list); i++) {
+		instance_destroy(manamonster_list[| i]);	
+	}
+}
+ds_list_destroy(manamonster_list);

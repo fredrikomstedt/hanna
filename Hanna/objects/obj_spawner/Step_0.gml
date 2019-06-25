@@ -9,3 +9,8 @@ deminion_spawn = random_range(0, 1);
 if(deminion_spawn <= deminion_spawn_rate/room_speed) {
 	alarm[2] = 1;	
 }
+
+manamonster_spawn = random_range(0, 1);
+if(manamonster_spawn <= manamonster_spawn_rate/room_speed) {
+	alarm[4] = 1;	
+}

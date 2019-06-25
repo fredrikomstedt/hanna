@@ -47,6 +47,28 @@ if(can_get_hurt) {
 		alarm[0] = 2*room_speed;
 		exit;
 	}
+	if(!place_empty(x, y, obj_manamonster)) {
+		hp -= 10;
+		can_get_hurt = false;
+		velocity[0] = irandom_range(-3*max_velocity[0], 3*max_velocity[0]);
+		velocity[1] = -jump_speed;
+		sprite_index = spr_hanna;
+		alarm[1] = room_speed/8;
+		alarm[0] = 2*room_speed;
+		exit;
+	}
+	var enemy_fire = instance_place(x, y, obj_enemy_fire);
+	if(enemy_fire != noone) {
+		instance_destroy(enemy_fire);
+		hp -= 10;
+		can_get_hurt = false;
+		velocity[0] = irandom_range(-3*max_velocity[0], 3*max_velocity[0]);
+		velocity[1] = -jump_speed;
+		sprite_index = spr_hanna;
+		alarm[1] = room_speed/8;
+		alarm[0] = 2*room_speed;
+		exit;
+	}
 }
 
 var mana_potion = instance_place(x, y, obj_mana);
@@ -118,6 +140,28 @@ if(!on_ground) {
 		}
 	}
 	ds_list_destroy(deminion_list);	
+	
+	//manamonsters
+	var manamonster_list = ds_list_create();
+	var manamonsters = instance_place_list(x, y + velocity[1], obj_manamonster, manamonster_list, false);
+	if(manamonsters > 0) {
+		for(var i = 0; i < ds_list_size(manamonster_list); i++) {
+			instance_destroy(manamonster_list[| i]);	
+		}
+	}
+	manamonsters = instance_place_list(x - sprite_width/4, y + velocity[1], obj_manamonster, manamonster_list, false);
+	if(manamonsters > 0) {
+		for(var i = 0; i < ds_list_size(manamonster_list); i++) {
+			instance_destroy(manamonster_list[| i]);	
+		}
+	}
+	manamonsters = instance_place_list(x + sprite_width/4, y + velocity[1], obj_manamonster, manamonster_list, false);
+	if(manamonsters > 0) {
+		for(var i = 0; i < ds_list_size(manamonster_list); i++) {
+			instance_destroy(manamonster_list[| i]);	
+		}
+	}
+	ds_list_destroy(manamonster_list);	
 }
 
 //Abilities

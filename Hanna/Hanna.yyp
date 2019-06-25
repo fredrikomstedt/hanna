@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "097816c2-7f52-41d9-ace0-aa00be7831eb",
+            "Value": {
+                "id": "3a3f5d71-ee26-4f20-86cd-cbea91cc5a44",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_manamonster\/spr_manamonster.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a21f1e8-3a54-46c7-946f-c86ca49cbd1f",
             "Value": {
                 "id": "8d5cccc1-7739-4645-8739-870748b5ce0d",
@@ -951,6 +970,25 @@
             }
         },
         {
+            "Key": "a2667f72-006e-4384-9051-cb4eed57ebcf",
+            "Value": {
+                "id": "da051956-50a9-40b7-ab5e-a88c595b0340",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/manamonster_move_state\/manamonster_move_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a3db5bfc-8ae4-48d3-ad10-31f1d65efcc5",
             "Value": {
                 "id": "d7683329-cdcc-4f73-9a99-407744a4b908",
@@ -1027,6 +1065,25 @@
             }
         },
         {
+            "Key": "ae1c8627-2fc9-4231-90c1-2bd23b2001c3",
+            "Value": {
+                "id": "5286868c-528c-4883-9df1-d09bd7de6c0b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_manamonster\/obj_manamonster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aee2a800-ada6-4045-acdd-83410227ee6a",
             "Value": {
                 "id": "aa23acf4-392a-4051-8322-d050ea7cabeb",
@@ -1062,6 +1119,25 @@
                 ],
                 "resourcePath": "views\/b032bbcd-73ad-4638-9bd4-1b73e70e9188.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b4fb2e09-cdd2-433f-ab3f-930040b34eb3",
+            "Value": {
+                "id": "f36247aa-7af1-48c9-8b6a-9585c939f874",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/manamonster_spawn_state\/manamonster_spawn_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1369,6 +1445,25 @@
             }
         },
         {
+            "Key": "eceb6ea2-6867-4032-bac9-8cf4a4647f01",
+            "Value": {
+                "id": "12cdde97-c332-40fd-a214-5c6c20fbdc56",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemy_fire\/obj_enemy_fire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f32d54ca-a4a8-45fe-baea-a8f0c604d8e1",
             "Value": {
                 "id": "b19b12d4-2dd9-48eb-abc1-c300f8c00bea",
@@ -1449,6 +1544,8 @@
         "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
         "3777ff86-2241-4298-8c20-84cb02234e3b",
         "3c26aea1-9c88-40a0-a13c-07502fff8509",
+        "b4fb2e09-cdd2-433f-ab3f-930040b34eb3",
+        "a2667f72-006e-4384-9051-cb4eed57ebcf",
         "a5d5cc1e-6ab1-4ff8-b4f8-1cc01ddac595",
         "417bf980-10f2-4edf-939c-00645f301e40",
         "0a21f1e8-3a54-46c7-946f-c86ca49cbd1f",
