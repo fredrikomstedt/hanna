@@ -25,6 +25,26 @@ if(can_get_hurt) {
 		alarm[0] = 2*room_speed;
 		exit;
 	}
+	if(!place_empty(x, y, obj_deminion)) {
+		hp -= 10;
+		can_get_hurt = false;
+		velocity[0] = irandom_range(-3*max_velocity[0], 3*max_velocity[0]);
+		velocity[1] = -jump_speed;
+		sprite_index = spr_hanna;
+		alarm[1] = room_speed/8;
+		alarm[0] = 2*room_speed;
+		exit;
+	}
+	if(!place_empty(x, y, obj_deminion_spear)) {
+		hp -= 10;
+		can_get_hurt = false;
+		velocity[0] = irandom_range(-3*max_velocity[0], 3*max_velocity[0]);
+		velocity[1] = -jump_speed;
+		sprite_index = spr_hanna;
+		alarm[1] = room_speed/8;
+		alarm[0] = 2*room_speed;
+		exit;
+	}
 }
 
 var mana_potion = instance_place(x, y, obj_mana);
@@ -53,6 +73,7 @@ if(hurt_flash) {
 
 //Damage enemies
 if(!on_ground) {
+	//Spiders
 	var spider_list = ds_list_create();
 	var spiders = instance_place_list(x, y + velocity[1], obj_spider, spider_list, false);
 	if(spiders > 0) {
@@ -73,6 +94,28 @@ if(!on_ground) {
 		}
 	}
 	ds_list_destroy(spider_list);	
+	
+	//Deminions
+	var deminion_list = ds_list_create();
+	var deminions = instance_place_list(x, y + velocity[1], obj_deminion, deminion_list, false);
+	if(deminions > 0) {
+		for(var i = 0; i < ds_list_size(deminion_list); i++) {
+			instance_destroy(deminion_list[| i]);	
+		}
+	}
+	deminions = instance_place_list(x - sprite_width/4, y + velocity[1], obj_deminion, deminion_list, false);
+	if(deminions > 0) {
+		for(var i = 0; i < ds_list_size(deminion_list); i++) {
+			instance_destroy(deminion_list[| i]);	
+		}
+	}
+	deminions = instance_place_list(x + sprite_width/4, y + velocity[1], obj_deminion, deminion_list, false);
+	if(deminions > 0) {
+		for(var i = 0; i < ds_list_size(deminion_list); i++) {
+			instance_destroy(deminion_list[| i]);	
+		}
+	}
+	ds_list_destroy(deminion_list);	
 }
 
 //Abilities

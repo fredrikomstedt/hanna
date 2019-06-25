@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "0a21f1e8-3a54-46c7-946f-c86ca49cbd1f",
+            "Value": {
+                "id": "8d5cccc1-7739-4645-8739-870748b5ce0d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/deminion_throw_state\/deminion_throw_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0bda57ba-5f05-489e-9d62-0d0729191515",
             "Value": {
                 "id": "4f635044-0c4c-4a09-8a90-e762f51e6ff4",
@@ -188,6 +207,25 @@
                 ],
                 "resourcePath": "views\/0f623466-b4a4-4088-a0fa-c0132f163d0e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1767577a-9469-4c52-84f5-38bb99ded95d",
+            "Value": {
+                "id": "49ffb696-7be5-4c16-82b8-e9e4e8ce52ab",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_deminion_throw\/spr_deminion_throw.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -419,6 +457,25 @@
             }
         },
         {
+            "Key": "386a62e7-3ebc-4920-bfe1-d47e67099e8a",
+            "Value": {
+                "id": "f47a0305-74b1-498e-8198-5500fbc61187",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_deminion_spear\/obj_deminion_spear.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3c26aea1-9c88-40a0-a13c-07502fff8509",
             "Value": {
                 "id": "e6e1b3c2-cbac-48d0-9729-38e74dc2fa39",
@@ -454,6 +511,25 @@
                 ],
                 "resourcePath": "sprites\/spr_fire_ability\/spr_fire_ability.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "417bf980-10f2-4edf-939c-00645f301e40",
+            "Value": {
+                "id": "b0935ddb-8031-41f2-93bc-ca6c93c8c947",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/deminion_spawn_state\/deminion_spawn_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -894,6 +970,25 @@
             }
         },
         {
+            "Key": "a5d5cc1e-6ab1-4ff8-b4f8-1cc01ddac595",
+            "Value": {
+                "id": "3125b6c9-39a3-4f51-a8fe-cd4ef609f1e7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/deminion_move_state\/deminion_move_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "73f5f3c4-0619-4ad2-9160-bf484248654d",
@@ -967,6 +1062,25 @@
                 ],
                 "resourcePath": "views\/b032bbcd-73ad-4638-9bd4-1b73e70e9188.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b62fa911-6347-4280-92f2-b4f6a3580162",
+            "Value": {
+                "id": "648ebc9b-07bd-4eb7-ab29-d9798ca9ebea",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_deminion_walking\/spr_deminion_walking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1255,6 +1369,25 @@
             }
         },
         {
+            "Key": "f32d54ca-a4a8-45fe-baea-a8f0c604d8e1",
+            "Value": {
+                "id": "b19b12d4-2dd9-48eb-abc1-c300f8c00bea",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_deminion\/spr_deminion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "79a0200b-0d18-4991-82a3-dc20d34da7d3",
@@ -1291,12 +1424,34 @@
                 "resourcePath": "sprites\/spr_spider\/spr_spider.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fbf4997c-c6cb-453f-ac84-3b30c368c35d",
+            "Value": {
+                "id": "a0d21004-2d67-419e-8585-f7a3754abb16",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_deminion\/obj_deminion.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
         "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
         "3777ff86-2241-4298-8c20-84cb02234e3b",
         "3c26aea1-9c88-40a0-a13c-07502fff8509",
+        "a5d5cc1e-6ab1-4ff8-b4f8-1cc01ddac595",
+        "417bf980-10f2-4edf-939c-00645f301e40",
+        "0a21f1e8-3a54-46c7-946f-c86ca49cbd1f",
         "539f07bc-3576-4fed-ac36-64297288b98d",
         "26f7afd7-b1eb-4b75-b0b1-e051d5d03082",
         "68252665-ccd6-43ae-a1e3-c29454f0728f",
