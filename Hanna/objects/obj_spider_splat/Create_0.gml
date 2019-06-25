@@ -1,5 +1,7 @@
 /// @description Initialize splat
 fade = false;
+velocity = [0, 0];
+grav = 1.5;
 
 alarm[0] = 5*room_speed;
 

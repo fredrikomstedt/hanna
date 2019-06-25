@@ -7,3 +7,6 @@ if(fade) {
 		instance_destroy();	
 	}
 }
+
+velocity[1] += grav;
+move(velocity);
