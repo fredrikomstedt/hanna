@@ -13,11 +13,11 @@ max_hp = 100;
 can_get_hurt = true;
 hurt_flash = false;
 
-mana = 100;
+mana = 0;
 max_mana = 100;
 show_mana = mana > 0;
 
-spears = 3;
+spears = 0;
 max_spears = 10;
 show_spears = spears > 0;
 

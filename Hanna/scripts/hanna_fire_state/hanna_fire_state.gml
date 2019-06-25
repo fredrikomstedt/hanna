@@ -2,8 +2,8 @@
 
 if(image_index > image_number - 1) {
 	mana = max(0, mana - 40);
-	for(var i = -1; i <= 1; i++) {
-		for(var j = -1; j <= 1; j++) {
+	for(var i = -1; i <= 1; i += 0.5) {
+		for(var j = -1; j <= 1; j += 0.5) {
 			if(i == 0 && j == 0) {
 				continue;	
 			}

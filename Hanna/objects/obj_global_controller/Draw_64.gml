@@ -7,6 +7,9 @@ draw_sprite(spr_healthbar, 0, 50, 50);
 //Spear
 if(hanna.show_spears) {
 	draw_sprite(spr_spear_ability, 0, 82, 212);	
+	draw_set_colour(c_white);
+	draw_set_font(fnt_spears);
+	draw_text(50, 180, string(hanna.spears));
 }
 
 //Mana

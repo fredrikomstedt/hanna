@@ -27,6 +27,24 @@ if(can_get_hurt) {
 	}
 }
 
+var mana_potion = instance_place(x, y, obj_mana);
+if(mana_potion != noone) {
+	mana = min(mana + 30, max_mana);
+	if(!show_mana) {
+		show_mana = true;	
+	}
+	instance_destroy(mana_potion);
+}
+
+var spear_pickup = instance_place(x, y, obj_spear_pickup);
+if(spear_pickup != noone) {
+	spears = min(spears + irandom_range(1, 4), max_spears);
+	if(!show_spears) {
+		show_spears = true;	
+	}
+	instance_destroy(spear_pickup);
+}
+
 if(hurt_flash) {
 	image_alpha = 0;	
 } else {
