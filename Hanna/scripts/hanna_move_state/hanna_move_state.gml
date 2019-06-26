@@ -71,6 +71,11 @@ if(can_get_hurt) {
 	}
 }
 
+//Death
+if(hp <= 0) {
+	room_goto(rm_game_over);	
+}
+
 var mana_potion = instance_place(x, y, obj_mana);
 if(mana_potion != noone) {
 	mana = min(mana + 30, max_mana);
