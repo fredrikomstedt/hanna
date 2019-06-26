@@ -1350,6 +1350,25 @@
             }
         },
         {
+            "Key": "c1932f82-476a-4795-b757-f7b7300e34d5",
+            "Value": {
+                "id": "9ee85d91-aff0-45f6-85d2-b16542eb6162",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_fredrik\/spr_fredrik.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c467dde9-027d-4115-9c71-896b59083291",
             "Value": {
                 "id": "2fecd74d-d2f2-4004-90ab-9f653b919956",
