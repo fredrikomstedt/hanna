@@ -419,6 +419,25 @@
             }
         },
         {
+            "Key": "33caf9b7-5de2-43ba-a813-b5f3703a6b28",
+            "Value": {
+                "id": "8b9cdf3c-7246-46a4-a4b9-9790b45806c4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/dr_demon_move_state\/dr_demon_move_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "33ee5cd8-4a8d-4825-bd75-e35a73b9790d",
             "Value": {
                 "id": "1c269462-e9d3-4052-b143-7c596cfc0869",
@@ -682,6 +701,25 @@
                 ],
                 "resourcePath": "views\/58817c7e-9bc6-4f1e-a513-bc8f54b66255.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "64692c47-88a7-4deb-8b21-f64973d88c63",
+            "Value": {
+                "id": "8477d615-0c42-4342-bd25-05617de3a777",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_dr_demon\/obj_dr_demon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1693,7 +1731,6 @@
         }
     ],
     "script_order": [
-        "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
         "3777ff86-2241-4298-8c20-84cb02234e3b",
         "3c26aea1-9c88-40a0-a13c-07502fff8509",
         "b4fb2e09-cdd2-433f-ab3f-930040b34eb3",
@@ -1702,9 +1739,11 @@
         "417bf980-10f2-4edf-939c-00645f301e40",
         "0a21f1e8-3a54-46c7-946f-c86ca49cbd1f",
         "539f07bc-3576-4fed-ac36-64297288b98d",
+        "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
         "26f7afd7-b1eb-4b75-b0b1-e051d5d03082",
         "68252665-ccd6-43ae-a1e3-c29454f0728f",
-        "e502942d-20e5-4ddb-ace4-674b49659a00"
+        "e502942d-20e5-4ddb-ace4-674b49659a00",
+        "33caf9b7-5de2-43ba-a813-b5f3703a6b28"
     ],
     "tutorial": ""
 }
