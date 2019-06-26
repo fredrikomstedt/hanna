@@ -666,6 +666,25 @@
             }
         },
         {
+            "Key": "4e3e50a3-227a-4162-99ce-5e868492be06",
+            "Value": {
+                "id": "414694ec-2de0-4a96-ab2a-42f234e734b2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_rope\/spr_rope.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "539f07bc-3576-4fed-ac36-64297288b98d",
             "Value": {
                 "id": "0b6b97b7-e93b-44ea-8cdc-f286e100df05",
