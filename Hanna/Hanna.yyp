@@ -514,6 +514,44 @@
             }
         },
         {
+            "Key": "3beb0b01-97df-41f1-a0b1-f7e03956b3b3",
+            "Value": {
+                "id": "a277c89b-d2f7-4860-b981-52d3146558f5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_dr_demon_before\/obj_dr_demon_before.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3c216e03-f09a-4f2d-be2a-2d482afb25bb",
+            "Value": {
+                "id": "40d2db78-cf68-4aeb-bb10-8008e70926a4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_dr_demon\/spr_dr_demon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c26aea1-9c88-40a0-a13c-07502fff8509",
             "Value": {
                 "id": "e6e1b3c2-cbac-48d0-9729-38e74dc2fa39",
