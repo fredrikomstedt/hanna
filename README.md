@@ -24,4 +24,4 @@ Use `2` to heal yourself, if enough mana has been acquired.
 Use `3` to cast a fire burst, if enough mana has been acquired.
 
 ## Credits
-*Hanna* is implemented using *GameMaker Studio 2*. All parts of the game have been written by __Fredrik Omstedt__.
+*Hanna* is implemented using *GameMaker Studio 2*. All parts of the game have been created by __Fredrik Omstedt__.
