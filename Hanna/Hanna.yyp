@@ -875,6 +875,25 @@
             }
         },
         {
+            "Key": "7803493b-bbdb-4828-a5dc-215f9692f061",
+            "Value": {
+                "id": "220f1321-ab0f-4956-ae7f-35d22b3d7ad2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_dr_demon_face\/spr_dr_demon_face.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "78f95022-5156-4eac-bbc0-24502b621083",
             "Value": {
                 "id": "be04a77c-216c-4c34-ba56-f8e006638b71",
@@ -1388,6 +1407,25 @@
             }
         },
         {
+            "Key": "b3d39ac5-2258-4234-bd27-a60b614d0058",
+            "Value": {
+                "id": "69f75a94-ca04-4575-8eb5-9955be4537e0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_talkbox\/obj_talkbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b4fb2e09-cdd2-433f-ab3f-930040b34eb3",
             "Value": {
                 "id": "f36247aa-7af1-48c9-8b6a-9585c939f874",
@@ -1537,6 +1575,25 @@
                 ],
                 "resourcePath": "rooms\/rm_game_over\/rm_game_over.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ca13e7cc-3ec0-438d-a81b-92ea3908906e",
+            "Value": {
+                "id": "c529624e-935c-406c-ad6e-f56828861abf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_talkbox\/spr_talkbox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

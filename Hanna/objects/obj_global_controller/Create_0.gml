@@ -19,8 +19,12 @@ globalvar heal_key;
 heal_key = 0;
 globalvar fire_key;
 fire_key = 0;
+globalvar paused;
+paused = true;
+globalvar dont_jump;
+dont_jump = true;
 
-hanna = instance_create_layer(480, 940, "Instances", obj_hanna);
+hanna = instance_create_layer(175, 702, "Instances", obj_hanna);
 
 // Make platforms that will be removed later
 platforms = ds_list_create();
@@ -32,4 +36,30 @@ for(var i = 0; i < 6; i++) {
 }
 
 //Countdown for boss mode
-alarm[0] = room_speed*5;//room_speed*60*3;
+start_countdown = false;
+
+talkboxes = ds_list_create();
+
+var talkbox = instance_create_layer(0, room_height-256, "GUI", obj_talkbox);
+talkbox.person = spr_hanna_face;
+talkbox.name = "Hanna";
+talkbox.text = "So this is the arena... I have to save Fredrik!";
+ds_list_add(talkboxes, talkbox);
+instance_deactivate_object(talkbox);
+
+talkbox = instance_create_layer(0, room_height-256, "GUI", obj_talkbox);
+talkbox.person = spr_hanna_face;
+talkbox.name = "Hanna";
+talkbox.text = "I think I can walk with [A] and [D], as well as [<] and [>]. I can also\njump with [SPACE].";
+ds_list_add(talkboxes, talkbox);
+instance_deactivate_object(talkbox);
+
+talkbox = instance_create_layer(0, room_height-256, "GUI", obj_talkbox);
+talkbox.person = spr_hanna_face;
+talkbox.name = "Hanna";
+talkbox.text = "I should be able to kill enemies by\njumping on them! Let's save Fredrik!";
+ds_list_add(talkboxes, talkbox);
+instance_deactivate_object(talkbox);
+
+paused_image = noone;
+alarm[1] = 5;

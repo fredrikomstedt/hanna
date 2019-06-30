@@ -93,6 +93,15 @@ var mana_potion = instance_place(x, y, obj_mana);
 if(mana_potion != noone) {
 	mana = min(mana + 30, max_mana);
 	if(!show_mana) {
+		paused = true;
+		dont_jump = true;
+		var talkbox = instance_create_layer(0, room_height-256, "GUI", obj_talkbox);
+		talkbox.person = spr_hanna_face;
+		talkbox.name = "Hanna";
+		talkbox.text = "I just got some mana! I can\nheal myself when damaged by pressing [2],\nand with more mana I can\nshoot fire by pressing [3]!";
+		ds_list_add(obj_global_controller.talkboxes, talkbox);
+		instance_deactivate_object(talkbox);
+		obj_global_controller.alarm[1] = 1;
 		show_mana = true;	
 	}
 	instance_destroy(mana_potion);
@@ -102,6 +111,15 @@ var spear_pickup = instance_place(x, y, obj_spear_pickup);
 if(spear_pickup != noone) {
 	spears = min(spears + irandom_range(1, 4), max_spears);
 	if(!show_spears) {
+		paused = true;
+		dont_jump = true;
+		var talkbox = instance_create_layer(0, room_height-256, "GUI", obj_talkbox);
+		talkbox.person = spr_hanna_face;
+		talkbox.name = "Hanna";
+		talkbox.text = "I just picked up a spear! I can throw it\nin the direction I am facing\nby pressing [1]!";
+		ds_list_add(obj_global_controller.talkboxes, talkbox);
+		instance_deactivate_object(talkbox);
+		obj_global_controller.alarm[1] = 1;
 		show_spears = true;	
 	}
 	instance_destroy(spear_pickup);
@@ -252,8 +270,12 @@ velocity[1] += grav;
 if(on_ground) {
     jumps = jump_amount;
     if(jump) {
-        velocity[1] = -jump_speed;
-        jumps--;
+		if(!dont_jump) {
+			velocity[1] = -jump_speed;
+			jumps--;
+		} else {
+			dont_jump = false;
+		}
     }
 } else {
     //Control jump height
@@ -262,8 +284,12 @@ if(on_ground) {
     }
     
     if(jump && jumps > 0) {
-        velocity[1] = -jump_speed;
-        jumps--;
+        if(!dont_jump) {
+			velocity[1] = -jump_speed;
+			jumps--;
+		} else {
+			dont_jump = false;
+		}
     }
 }
 
