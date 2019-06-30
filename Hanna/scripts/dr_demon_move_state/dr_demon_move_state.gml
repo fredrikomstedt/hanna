@@ -9,6 +9,20 @@ if(hp <= 50 && !frenzy) {
 	acceleration *= 2;
 }
 
+//Death
+if(hp <= 0) {
+	instance_destroy();
+	with(obj_spider) {
+		instance_destroy();
+	}
+	with(obj_deminion) {
+		instance_destroy();	
+	}
+	with(obj_manamonster) {
+		instance_destroy();	
+	}
+}
+
 //Switch direction on impact or drop
 if(!place_empty(x + dir, y, obj_solid)) {
 	dir = -dir;

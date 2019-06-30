@@ -1046,6 +1046,25 @@
             }
         },
         {
+            "Key": "8dd8f149-42e0-4a03-ad2e-242c879f153d",
+            "Value": {
+                "id": "7fc2fab4-aa57-430f-b5ad-403cb3a4229e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_fadeout\/obj_fadeout.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8ea25742-2f41-4ddf-b644-4667689355dd",
             "Value": {
                 "id": "63f35ecd-b3fa-42ee-807e-966dd8d9780f",
@@ -1841,6 +1860,25 @@
                 ],
                 "resourcePath": "scripts\/spawn_spider\/spawn_spider.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fb82de80-04c8-4103-bf80-621c9e214802",
+            "Value": {
+                "id": "4be976b8-b87b-4335-9aeb-3bafd60e82e4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_fadeout\/spr_fadeout.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
