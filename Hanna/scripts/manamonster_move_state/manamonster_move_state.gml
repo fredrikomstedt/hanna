@@ -23,6 +23,7 @@ if(can_create_fire) {
 	fire.velocity[0] = irandom_range(-7, 7);
 	fire.velocity[1] = irandom_range(-5, -10);
 	alarm[0] = irandom_range(5*room_speed, 10*room_speed);
+	audio_play_sound(snd_fire, 6, false);
 }
 
 //Animation

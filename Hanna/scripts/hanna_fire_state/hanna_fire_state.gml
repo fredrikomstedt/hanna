@@ -14,6 +14,7 @@ if(image_index > image_number - 1) {
 			fireball.velocity[1] = lengthdir_y(10, dir);
 		}
 	}
+	audio_play_sound(snd_fire, 8, false);
 	
 	sprite_index = spr_hanna;
 	state = hanna_move_state;

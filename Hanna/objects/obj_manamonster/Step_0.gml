@@ -1,2 +1,2 @@
-/// @description Update Hanna.
+/// @description Update Manamonster
 script_execute(state);

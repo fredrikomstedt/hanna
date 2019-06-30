@@ -12,3 +12,4 @@ for(var i = -1; i <= 1; i += 0.5) {
 		fireball.velocity[1] = lengthdir_y(10, dir);
 	}
 }
+audio_play_sound(snd_fire, 6, false);

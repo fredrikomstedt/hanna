@@ -23,6 +23,7 @@ if(can_get_hurt) {
 		sprite_index = spr_hanna;
 		alarm[1] = room_speed/8;
 		alarm[0] = 2*room_speed;
+		audio_play_sound(snd_hanna_damage, 7, false);
 		exit;
 	}
 	if(!place_empty(x, y, obj_deminion)) {
@@ -33,6 +34,7 @@ if(can_get_hurt) {
 		sprite_index = spr_hanna;
 		alarm[1] = room_speed/8;
 		alarm[0] = 2*room_speed;
+		audio_play_sound(snd_hanna_damage, 7, false);
 		exit;
 	}
 	var enemy_spear = instance_place(x, y, obj_deminion_spear);
@@ -45,6 +47,7 @@ if(can_get_hurt) {
 		sprite_index = spr_hanna;
 		alarm[1] = room_speed/8;
 		alarm[0] = 2*room_speed;
+		audio_play_sound(snd_hanna_damage, 7, false);
 		exit;
 	}
 	if(!place_empty(x, y, obj_manamonster)) {
@@ -55,6 +58,7 @@ if(can_get_hurt) {
 		sprite_index = spr_hanna;
 		alarm[1] = room_speed/8;
 		alarm[0] = 2*room_speed;
+		audio_play_sound(snd_hanna_damage, 7, false);
 		exit;
 	}
 	var enemy_fire = instance_place(x, y, obj_enemy_fire);
@@ -67,6 +71,7 @@ if(can_get_hurt) {
 		sprite_index = spr_hanna;
 		alarm[1] = room_speed/8;
 		alarm[0] = 2*room_speed;
+		audio_play_sound(snd_hanna_damage, 7, false);
 		exit;
 	}
 	
@@ -79,6 +84,7 @@ if(can_get_hurt) {
 			sprite_index = spr_hanna;
 			alarm[1] = room_speed/8;
 			alarm[0] = 2*room_speed;
+			audio_play_sound(snd_hanna_damage, 7, false);
 			exit;
 		}
 	}
@@ -208,6 +214,7 @@ if(!on_ground && velocity[1] > 0) {
 			dr_demon.alarm[1] = 2*room_speed;
 			dr_demon.alarm[2] = room_speed/8;
 			velocity[1] = -jump_speed;
+			audio_play_sound(snd_dr_demon_damage, 6, false);
 		}
 	}
 }
@@ -273,6 +280,7 @@ if(on_ground) {
 		if(!dont_jump) {
 			velocity[1] = -jump_speed;
 			jumps--;
+			audio_play_sound(snd_hanna_jump, 6, false);
 		} else {
 			dont_jump = false;
 		}
@@ -287,6 +295,7 @@ if(on_ground) {
         if(!dont_jump) {
 			velocity[1] = -jump_speed;
 			jumps--;
+			audio_play_sound(snd_hanna_jump, 6, false);
 		} else {
 			dont_jump = false;
 		}

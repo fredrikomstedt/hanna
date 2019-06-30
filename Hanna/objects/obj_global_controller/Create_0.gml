@@ -43,7 +43,7 @@ talkboxes = ds_list_create();
 var talkbox = instance_create_layer(0, room_height-256, "GUI", obj_talkbox);
 talkbox.person = spr_hanna_face;
 talkbox.name = "Hanna";
-talkbox.text = "So this is the arena... I have to save Fredrik!";
+talkbox.text = "So this is The Arena... I have to save Fredrik!";
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 

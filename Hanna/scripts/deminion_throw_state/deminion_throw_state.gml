@@ -16,5 +16,6 @@ if(image_index > image_number - 1) {
 	sprite_index = spr_deminion_walking;
 	state = deminion_move_state;
 	can_throw = false;
+	audio_play_sound(snd_spear, 6, false);
 	alarm[0] = irandom_range(room_speed*5, room_speed*10);
 }

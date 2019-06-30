@@ -48,5 +48,6 @@ if(dr_demon != noone) {
 		dr_demon.can_get_hurt = false;
 		dr_demon.alarm[1] = 2*room_speed;
 		dr_demon.alarm[2] = room_speed/8;
+		audio_play_sound(snd_dr_demon_damage, 6, false);
 	}
 }

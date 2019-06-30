@@ -7,6 +7,7 @@ if(image_index > image_number - 1) {
 		instance_create_layer(x + random_range(-abs(sprite_width)/2, abs(sprite_width)/2), y + random_range(-sprite_height/4, sprite_height/2), "Instances", obj_heal_blob);	
 	}
 	sprite_index = spr_hanna;
+	audio_play_sound(snd_heal, 8, false);
 	state = hanna_move_state;
 }
 
