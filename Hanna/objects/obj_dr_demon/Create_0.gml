@@ -12,6 +12,7 @@ grav = 2;
 
 hp = 100;
 frenzy = false;
+can_get_hurt = true;
 
 //Attack cooldown
 alarm[0] = irandom_range(room_speed, 10*room_speed);

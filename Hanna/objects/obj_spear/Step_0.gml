@@ -75,3 +75,14 @@ if(manamonsters > 0) {
 	}
 }
 ds_list_destroy(manamonster_list);
+
+//Dr. Demon
+var dr_demon = instance_place(x, y, obj_dr_demon);
+if(dr_demon != noone) {
+	if(dr_demon.can_get_hurt) {
+		dr_demon.hp -= 10;
+		dr_demon.can_get_hurt = false;
+		dr_demon.alarm[1] = 2*room_speed;
+		dr_demon.alarm[2] = room_speed/8;
+	}
+}

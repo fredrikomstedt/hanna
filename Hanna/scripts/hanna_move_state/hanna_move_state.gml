@@ -69,6 +69,19 @@ if(can_get_hurt) {
 		alarm[0] = 2*room_speed;
 		exit;
 	}
+	
+	if(!place_empty(x, y, obj_dr_demon)) {
+		if(obj_dr_demon.can_get_hurt) {
+			hp -= obj_dr_demon.frenzy ? 20 : 10;
+			can_get_hurt = false;
+			velocity[0] = irandom_range(-3*max_velocity[0], 3*max_velocity[0]);
+			velocity[1] = -jump_speed;
+			sprite_index = spr_hanna;
+			alarm[1] = room_speed/8;
+			alarm[0] = 2*room_speed;
+			exit;
+		}
+	}
 }
 
 //Death
@@ -101,7 +114,7 @@ if(hurt_flash) {
 }
 
 //Damage enemies
-if(!on_ground) {
+if(!on_ground && velocity[1] > 0) {
 	//Spiders
 	var spider_list = ds_list_create();
 	var spiders = instance_place_list(x, y + velocity[1], obj_spider, spider_list, false);
@@ -167,6 +180,18 @@ if(!on_ground) {
 		}
 	}
 	ds_list_destroy(manamonster_list);	
+	
+	//Dr. Demon
+	var dr_demon = instance_place(x, y + velocity[1], obj_dr_demon);
+	if(dr_demon != noone) {
+		if(dr_demon.can_get_hurt) {
+			dr_demon.hp -= 10;
+			dr_demon.can_get_hurt = false;
+			dr_demon.alarm[1] = 2*room_speed;
+			dr_demon.alarm[2] = room_speed/8;
+			velocity[1] = -jump_speed;
+		}
+	}
 }
 
 //Abilities
