@@ -9,13 +9,19 @@ __Hanna__ and __Fredrik__ have been together for several months, their love blos
 
 #### Installation
 
-TODO
+__OS X__:
+
+Download `Hanna-Exec.zip` from this repository, and extract the executable.
+
+__Other systems__:
+
+There is currently no support for *Hanna* on other systems than __OS X__.
 
 #### Controls
 
-Use `A` and `D` or `<` and `>` to move. 
+Use `A` and `D` or `<` and `>` to move.
 
-Use `SPACE` to jump or double-jump. 
+Use `SPACE` to jump or double-jump.
 
 Use `1` to throw a spear, if any spear has been picked up.
 
