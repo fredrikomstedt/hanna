@@ -5,4 +5,4 @@ splat.image_xscale = 5;
 splat.image_yscale = 5;
 
 var fadeout = instance_create_layer(0, 0, "Fadeout", obj_fadeout);
-fadeout.room_transition = rm_game_over;
+fadeout.room_transition = rm_outro;
