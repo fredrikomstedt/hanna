@@ -50,7 +50,7 @@ instance_deactivate_object(talkbox);
 talkbox = instance_create_layer(0, room_height-256, "GUI", obj_talkbox);
 talkbox.person = spr_hanna_face;
 talkbox.name = "Hanna";
-talkbox.text = "I think I can walk with [A] and [D], as well as [<] and [>]. I can also\njump with [SPACE].";
+talkbox.text = "I think I can walk with [A] and [D], as well as [<] and [>]. I can also\njump and double-jump with [SPACE].";
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 
