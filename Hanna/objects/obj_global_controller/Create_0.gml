@@ -32,4 +32,4 @@ for(var i = 0; i < 6; i++) {
 }
 
 //Countdown for boss mode
-alarm[0] = room_speed*60*3;
+alarm[0] = room_speed*5;//room_speed*60*3;

@@ -381,6 +381,25 @@
             }
         },
         {
+            "Key": "290eb0a3-73d8-4bac-9cb9-567cfd4b4912",
+            "Value": {
+                "id": "548deb7d-cd18-47dc-963e-07a0d92cec3b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/spawn_manamonster\/spawn_manamonster.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2cbd45a7-6bc9-46f8-9194-4d4e56f2a22c",
             "Value": {
                 "id": "383ef361-a02b-43ad-9d62-b44e3c681b97",
@@ -1236,6 +1255,25 @@
             }
         },
         {
+            "Key": "abb9c77d-bab2-452d-92b7-98a35aa70be8",
+            "Value": {
+                "id": "ba394830-734a-4dc2-9ed0-a14f812338bf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/dr_demon_attack_state\/dr_demon_attack_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ae1c8627-2fc9-4231-90c1-2bd23b2001c3",
             "Value": {
                 "id": "5286868c-528c-4883-9df1-d09bd7de6c0b",
@@ -1290,6 +1328,25 @@
                 ],
                 "resourcePath": "views\/b032bbcd-73ad-4638-9bd4-1b73e70e9188.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b032c15d-0f33-4077-a9ed-f05d0a71110e",
+            "Value": {
+                "id": "aa2983a2-bc4c-41b6-91a3-e45ecf2acb38",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/spawn_deminion\/spawn_deminion.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1749,6 +1806,25 @@
             }
         },
         {
+            "Key": "fab0d32e-b7c0-42bb-9300-90f88318d1dd",
+            "Value": {
+                "id": "cc57348d-1883-4448-8468-554ffaa46403",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/spawn_spider\/spawn_spider.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fbf4997c-c6cb-453f-ac84-3b30c368c35d",
             "Value": {
                 "id": "a0d21004-2d67-419e-8585-f7a3754abb16",
@@ -1781,7 +1857,11 @@
         "26f7afd7-b1eb-4b75-b0b1-e051d5d03082",
         "68252665-ccd6-43ae-a1e3-c29454f0728f",
         "e502942d-20e5-4ddb-ace4-674b49659a00",
-        "33caf9b7-5de2-43ba-a813-b5f3703a6b28"
+        "33caf9b7-5de2-43ba-a813-b5f3703a6b28",
+        "abb9c77d-bab2-452d-92b7-98a35aa70be8",
+        "fab0d32e-b7c0-42bb-9300-90f88318d1dd",
+        "b032c15d-0f33-4077-a9ed-f05d0a71110e",
+        "290eb0a3-73d8-4bac-9cb9-567cfd4b4912"
     ],
     "tutorial": ""
 }
