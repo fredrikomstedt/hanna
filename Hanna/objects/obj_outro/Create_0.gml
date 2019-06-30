@@ -12,6 +12,7 @@ var talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_fredrik_face;
 talkbox.name = "Fredrik";
 talkbox.text = "Thank you for saving me Hanna!\n You're the best, I love you!";
+talkbox.sound = snd_fredrik_outro_1;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 
@@ -19,6 +20,7 @@ talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_hanna_face;
 talkbox.name = "Hanna";
 talkbox.text = "I love you too Fredrik!";
+talkbox.sound = snd_hanna_outro_1;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 
@@ -26,6 +28,7 @@ talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_fredrik_face;
 talkbox.name = "Fredrik";
 talkbox.text = "As thanks for saving me, let's go\n to Grona Lund! This afternoon!";
+talkbox.sound = snd_fredrik_outro_2;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 
@@ -33,6 +36,7 @@ talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_hanna_face;
 talkbox.name = "Hanna";
 talkbox.text = "Yaaaaay! Let's go!";
+talkbox.sound = snd_hanna_outro_2;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 

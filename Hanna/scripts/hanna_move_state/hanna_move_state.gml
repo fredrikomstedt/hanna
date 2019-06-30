@@ -105,6 +105,7 @@ if(mana_potion != noone) {
 		talkbox.person = spr_hanna_face;
 		talkbox.name = "Hanna";
 		talkbox.text = "I just got some mana! I can\nheal myself when damaged by pressing [2],\nand with more mana I can\nshoot fire by pressing [3]!";
+		talkbox.sound = snd_hanna_arena_6;
 		ds_list_add(obj_global_controller.talkboxes, talkbox);
 		instance_deactivate_object(talkbox);
 		obj_global_controller.alarm[1] = 1;
@@ -123,6 +124,7 @@ if(spear_pickup != noone) {
 		talkbox.person = spr_hanna_face;
 		talkbox.name = "Hanna";
 		talkbox.text = "I just picked up a spear! I can throw it\nin the direction I am facing\nby pressing [1]!";
+		talkbox.sound = snd_hanna_arena_5;
 		ds_list_add(obj_global_controller.talkboxes, talkbox);
 		instance_deactivate_object(talkbox);
 		obj_global_controller.alarm[1] = 1;

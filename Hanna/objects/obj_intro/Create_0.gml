@@ -14,6 +14,7 @@ var talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_fredrik_face;
 talkbox.name = "Fredrik";
 talkbox.text = "What a lovely day! And I get to\nspend it with you Hanna!";
+talkbox.sound = snd_fredrik_intro_1;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 
@@ -21,6 +22,7 @@ talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_hanna_face;
 talkbox.name = "Hanna";
 talkbox.text = "Yaaas, this is great! I wish this could\n last forever!";
+talkbox.sound = snd_hanna_intro_1;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 
@@ -28,6 +30,7 @@ talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_dr_demon_face;
 talkbox.name = "Dr. Demon";
 talkbox.text = "Urgh, I can't stand your affection\ntowards each other. I am taking Fredrik\n to my lair, The Arena!";
+talkbox.sound = snd_dr_demon_intro;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 
@@ -35,6 +38,7 @@ talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_fredrik_face;
 talkbox.name = "Fredrik";
 talkbox.text = "NOOOOOOOooooooo...";
+talkbox.sound = snd_fredrik_intro_2;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 
@@ -42,6 +46,7 @@ talkbox = instance_create_layer(0, 0, "GUI", obj_talkbox);
 talkbox.person = spr_hanna_face;
 talkbox.name = "Hanna";
 talkbox.text = "I have to save Fredrik! I will follow Dr. Demon\n to The Arena!";
+talkbox.sound = snd_hanna_intro_2;
 ds_list_add(talkboxes, talkbox);
 instance_deactivate_object(talkbox);
 

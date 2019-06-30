@@ -3,3 +3,4 @@
 person = noone;
 name = "";
 text = "";
+sound = noone;
