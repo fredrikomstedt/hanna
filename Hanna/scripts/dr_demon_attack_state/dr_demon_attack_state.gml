@@ -23,7 +23,14 @@ switch(choice) {
 		break;
 	case 1: //Spear/Fire Spear
 		if(frenzy) {
-			
+			var target_x = obj_hanna.x;
+			var target_y = obj_hanna.y;
+			var target_dir = point_direction(x, y, target_x, target_y);
+			var velocity_x = lengthdir_x(15, target_dir);
+			var velocity_y = lengthdir_y(15, target_dir);
+			var fire = instance_create_layer(x, y, "Instances", obj_fire_spear);
+			fire.velocity[0] = velocity_x;
+			fire.velocity[1] = velocity_y;
 		} else {
 			var target_x = obj_hanna.x;
 			var target_y = obj_hanna.y;
@@ -37,13 +44,13 @@ switch(choice) {
 		}
 		break;
 	case 2: //Minions
-		repeat(irandom_range(1, 3)) {
+		repeat(irandom_range(frenzy ? 2 : 1, frenzy ? 5 : 3)) {
 			spawn_spider();
 		}
-		repeat(irandom_range(0, 2)) {
+		repeat(irandom_range(frenzy ? 1 : 0, frenzy ? 3 : 2)) {
 			spawn_deminion();	
 		}
-		repeat(irandom_range(0, 1)) {
+		repeat(irandom_range(frenzy ? 1 : 0, frenzy ? 2 : 1)) {
 			spawn_manamonster();	
 		}
 		break;

@@ -818,6 +818,25 @@
             }
         },
         {
+            "Key": "711ce763-be38-4bc1-a0d4-deae6da9148b",
+            "Value": {
+                "id": "70d54fdb-9e83-4315-9c31-08539491e7a8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_fire_spear\/obj_fire_spear.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73257271-2030-4451-8d57-611d94ee7649",
             "Value": {
                 "id": "27096ad6-14ed-4be2-bde7-a02fd5078ca3",
