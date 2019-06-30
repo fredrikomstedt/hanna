@@ -46,3 +46,6 @@ first_line = false;
 second_line = false;
 third_line = false;
 fourth_line = false;
+
+audio_stop_all();
+audio_play_sound(snd_outdoors, 3, true);

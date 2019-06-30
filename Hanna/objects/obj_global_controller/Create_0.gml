@@ -66,3 +66,7 @@ instance_deactivate_object(talkbox);
 
 paused_image = noone;
 alarm[1] = 5;
+
+audio_stop_all();
+audio_play_sound(snd_arena_first, 3, false);
+started_sound_loop = false;

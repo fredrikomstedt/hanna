@@ -495,6 +495,25 @@
             }
         },
         {
+            "Key": "27229c3d-b444-48d3-89a4-2b7bf8e24a16",
+            "Value": {
+                "id": "7a188486-f736-4a12-bf40-bc8545e31047",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_menu\/snd_menu.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "27edcd6f-354c-47e3-b731-1f067a2b69b4",
             "Value": {
                 "id": "60436dc3-a6f1-4620-9621-87ac23220a92",
@@ -967,6 +986,25 @@
                 ],
                 "resourcePath": "scripts\/move\/move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "548f14db-30ee-4e31-bf32-e7d4ec1add3f",
+            "Value": {
+                "id": "d02333fb-aebe-4833-ac1a-c84e4dd560cf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_arena_first\/snd_arena_first.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2053,6 +2091,25 @@
             }
         },
         {
+            "Key": "b92e5c28-4f35-4cee-9820-c58fc493f57f",
+            "Value": {
+                "id": "d7bd7d68-e7c1-4f16-bbcb-d10d64ed247c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_outdoors\/snd_outdoors.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bb5e2c79-1070-4299-9403-7103bc1c5fb0",
             "Value": {
                 "id": "24d8252a-9561-476f-ab9a-4901c2b4e47e",
@@ -2487,6 +2544,25 @@
                 ],
                 "resourcePath": "sprites\/spr_spider_splat_drop\/spr_spider_splat_drop.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e7b1a128-99be-4b96-9469-162b31f22422",
+            "Value": {
+                "id": "7ff6874e-3c98-4844-96bf-218e2dd93f9c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_arena_second\/snd_arena_second.yy",
+                "resourceType": "GMSound"
             }
         },
         {

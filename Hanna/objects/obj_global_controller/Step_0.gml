@@ -12,3 +12,10 @@ space_key_let_go = keyboard_check_released(vk_space);
 spear_key = keyboard_check_pressed(ord("1"));
 heal_key = keyboard_check_pressed(ord("2"));
 fire_key = keyboard_check_pressed(ord("3"));
+
+if(!started_sound_loop) {
+	if(!audio_is_playing(snd_arena_first)) {
+		started_sound_loop = true;
+		audio_play_sound(snd_arena_second, 3, true);
+	}
+}
